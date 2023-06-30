@@ -1,0 +1,40 @@
+def comma(string):
+    result = ""
+    counter = 0
+
+    for char in string:
+        if char == '\n':  # Skip newline characters
+            continue
+
+        result += char
+        counter += 1
+
+        if counter == 11:
+            result += "', '"
+            counter = 0
+
+    return "'" + result.rstrip("', ") + "'"  # Add quotation marks at the beginning and remove trailing comma and quotation marks
+
+# Multi-line input with termination keyword variations
+print("HOW TO DO IT: Copy paste the list, then press enter, then write word \"stop\", then again press enter.")
+lines = []
+while True:
+    line = input()
+    if line.lower() in ["stop", "sToP", "Stop", "StOp", "stOP"]:  # Case-insensitive matching for various 'STOP' variations
+        break
+    lines.append(line)
+
+# Concatenate the lines into a single string
+input_string = "\n".join(lines)
+
+formatted_string = comma(input_string)
+
+containers = []
+for container in formatted_string.split(', '):
+    containers.append(container)
+
+query = ""
+for container in containers:
+    query += "or EC.Equipment_Number = {}\n".format(container)
+
+print(query)
