@@ -1,0 +1,14 @@
+C:\Users\krists.ratseps\Dev\xml\bin\Debug\net8.0\xml.exe
+C:\Users\krists.ratseps\Dev\xml\bin\Debug\net8.0\xml.deps.json
+C:\Users\krists.ratseps\Dev\xml\bin\Debug\net8.0\xml.runtimeconfig.json
+C:\Users\krists.ratseps\Dev\xml\bin\Debug\net8.0\xml.dll
+C:\Users\krists.ratseps\Dev\xml\bin\Debug\net8.0\xml.pdb
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\xml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\xml.AssemblyInfoInputs.cache
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\xml.AssemblyInfo.cs
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\xml.csproj.CoreCompileInputs.cache
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\xml.dll
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\refint\xml.dll
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\xml.pdb
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\xml.genruntimeconfig.cache
+C:\Users\krists.ratseps\Dev\xml\obj\Debug\net8.0\ref\xml.dll

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<vci version="6" revision="0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.mscgva.ch/service/vci/2010/11/16">
+    <PVE version="13">
+        <item tag="Length Over All" value="300" type="N"/>
+        <item tag="Docked [All Fast] at terminal" value="2024-01-21T14:42:00.000" type="D"/>
+        <item tag="Vessel undocked" value="2024-01-22T16:02:00.000" type="D"/>
+        <item tag="Husbandry Item" value="Government service / OT" type="S" index="1"/>
+        <item tag="Husbandry Item" value="Crew Changes" type="S" index="2"/>
+        <item tag="Husbandry Value" value="8" type="N" index="1"/>
+        <item tag="Husbandry Value" value="2" type="N" index="2"/>
+    </PVE>
+</vci>

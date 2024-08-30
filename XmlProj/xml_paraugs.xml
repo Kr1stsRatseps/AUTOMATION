@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<vci version="6" revision="0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.mscgva.ch/service/vci/2010/11/16">
+    <header>
+        <main>
+            <port>BJCOO</port>
+            <terminal>BJCOOAD</terminal>
+            <vessel>MSC HAITI II</vessel>
+            <voyage>XA401R</voyage>
+            <vesselinfo>
+                <onhire xsi:nil="true"/>
+                <offhire xsi:nil="true"/>
+                <damage>false</damage>
+            </vesselinfo>
+            <canalnettonnage>0</canalnettonnage>
+            <panamateucapacity>0</panamateucapacity>
+            <sueztier>0</sueztier>
+            <calltype>
+                <calltypeitem>Discharging</calltypeitem>
+                <calltypeitem>Loading</calltypeitem>
+            </calltype>
+            <bowthruster>
+                <bowthrusteritem>arrival out of order</bowthrusteritem>
+                <bowthrusteritem>departure in order</bowthrusteritem>
+            </bowthruster>
+            <drydockrepair>
+                <from xsi:nil="true"/>
+                <to xsi:nil="true"/>
+            </drydockrepair>
+            <comment/>
+            <vcistatus/>
+        </main>
+        <coldironing/>
+        <vesselberth/>
+        <arrival>
+            <vesselarrivesatpilotstationroads>2024-01-21T13:00:00.000</vesselarrivesatpilotstationroads>
+            <drifting>
+                <from xsi:nil="true"/>
+                <to xsi:nil="true"/>
+            </drifting>
+            <dropanchor>
+                <from xsi:nil="true"/>
+                <to xsi:nil="true"/>
+            </dropanchor>
+            <laybyberth>
+                <from xsi:nil="true"/>
+                <to xsi:nil="true"/>
+            </laybyberth>
+            <vesselberth>2024-01-21T14:42:00.000</vesselberth>
+            <commencedtransitconvoy xsi:nil="true"/>
+            <draft>
+                <fwd>7.3</fwd>
+                <aft>7.7</aft>
+            </draft>
+            <watchmen>0</watchmen>
+            <pilotage>
+                <pilotageitem id="1">
+                    <pilottype>Sea</pilottype>
+                    <number>1</number>
+                    <from>2024-01-21T13:36:00.000</from>
+                    <to>2024-01-21T14:42:00.000</to>
+                    <duration>001:06</duration>
+                    <comment/>
+                </pilotageitem>
+            </pilotage>
+            <towage>
+                <towageitem id="1">
+                    <tugtype>Sea</tugtype>
+                    <number>2</number>
+                    <from>2024-01-21T13:36:00.000</from>
+                    <to>2024-01-21T14:42:00.000</to>
+                    <duration>001:06</duration>
+                    <duetobowthrusternotoperated>false</duetobowthrusternotoperated>
+                    <comment/>
+                </towageitem>
+            </towage>
+            <gangwaydown>2024-01-21T15:00:00.000</gangwaydown>
+            <anchoragereason>Harbour traffic</anchoragereason>
+        </arrival>
+        <vesselshifting>
+            <vesselshiftingitem id="1">
+                <type>No Shifting</type>
+                <from>2024-02-07T08:30:51</from>
+                <to>2024-02-07T08:30:51</to>
+                <reason/>
+                <pilotsnumber>0</pilotsnumber>
+                <tugsnumber>0</tugsnumber>
+                <mooring>0</mooring>
+                <terminalfrom/>
+                <terminalto/>
+            </vesselshiftingitem>
+        </vesselshifting>
+        <departure>
+            <draft>
+                <fwd>10.2</fwd>
+                <aft>10.6</aft>
+            </draft>
+            <locomotiveservice>0</locomotiveservice>
+            <completedtransitconvoy xsi:nil="true"/>
+            <sailedfromberth>2024-01-22T16:02:00.000</sailedfromberth>
+            <anchorageout>
+                <from xsi:nil="true"/>
+                <to xsi:nil="true"/>
+            </anchorageout>
+            <laybyberth>
+                <from xsi:nil="true"/>
+                <to xsi:nil="true"/>
+            </laybyberth>
+            <pilotage>
+                <pilotageitem id="1">
+                    <pilottype>Sea</pilottype>
+                    <number>1</number>
+                    <from>2024-01-22T15:48:00.000</from>
+                    <to>2024-01-22T16:38:00.000</to>
+                    <duration>000:50</duration>
+                    <comment/>
+                </pilotageitem>
+            </pilotage>
+            <towage>
+                <towageitem id="1">
+                    <tugtype>Sea</tugtype>
+                    <number>2</number>
+                    <from>2024-01-22T15:48:00.000</from>
+                    <to>2024-01-22T16:38:00.000</to>
+                    <duration>000:50</duration>
+                    <duetobowthrusternotoperated>false</duetobowthrusternotoperated>
+                    <comment/>
+                </towageitem>
+            </towage>
+            <losttimereason>Pilot shortage</losttimereason>
+        </departure>
+    </header>
+    <operation>
+        <stevedoringoperation>
+            <stevedoringoperationitem id="1">
+                <terminal>BJCOOAD</terminal>
+                <operationstarted>2024-01-21T15:24:00.000</operationstarted>
+                <operationcompleted>2024-01-22T12:30:00.000</operationcompleted>
+                <unlashing>
+                    <completed>2024-01-21T15:24:00.000</completed>
+                    <doneby>T</doneby>
+                </unlashing>
+                <lashing>
+                    <completed>2024-01-22T12:40:00.000</completed>
+                    <doneby>T</doneby>
+                </lashing>
+                <stevedoringdetail>
+                    <stevedoringdetailitem id="1">
+                        <operationtype>Loading Operations</operationtype>
+                        <stevedoringhourstype>Normal Hours / Straight Time</stevedoringhourstype>
+                        <numberofgang>1</numberofgang>
+                        <shorecrane>1</shorecrane>
+                        <from>2024-01-21T15:24:00.000</from>
+                        <to>2024-01-21T17:00:00.000</to>
+                        <duration>001:36</duration>
+                        <reason/>
+                    </stevedoringdetailitem>
+                    <stevedoringdetailitem id="2">
+                        <operationtype>Loading Operations</operationtype>
+                        <stevedoringhourstype>Normal Hours / Straight Time</stevedoringhourstype>
+                        <numberofgang>2</numberofgang>
+                        <shorecrane>2</shorecrane>
+                        <from>2024-01-21T17:00:00.000</from>
+                        <to>2024-01-21T21:00:00.000</to>
+                        <duration>004:00</duration>
+                        <reason/>
+                    </stevedoringdetailitem>
+                    <stevedoringdetailitem id="3">
+                        <operationtype>Loading Operations</operationtype>
+                        <stevedoringhourstype>Normal Hours / Straight Time</stevedoringhourstype>
+                        <numberofgang>3</numberofgang>
+                        <shorecrane>3</shorecrane>
+                        <from>2024-01-21T21:00:00.000</from>
+                        <to>2024-01-22T02:00:00.000</to>
+                        <duration>005:00</duration>
+                        <reason/>
+                    </stevedoringdetailitem>
+                    <stevedoringdetailitem id="4">
+                        <operationtype>Loading Operations</operationtype>
+                        <stevedoringhourstype>Normal Hours / Straight Time</stevedoringhourstype>
+                        <numberofgang>2</numberofgang>
+                        <shorecrane>2</shorecrane>
+                        <from>2024-01-22T02:00:00.000</from>
+                        <to>2024-01-22T10:00:00.000</to>
+                        <duration>008:00</duration>
+                        <reason/>
+                    </stevedoringdetailitem>
+                    <stevedoringdetailitem id="5">
+                        <operationtype>Loading Operations</operationtype>
+                        <stevedoringhourstype>Normal Hours / Straight Time</stevedoringhourstype>
+                        <numberofgang>1</numberofgang>
+                        <shorecrane>1</shorecrane>
+                        <from>2024-01-22T10:00:00.000</from>
+                        <to>2024-01-22T12:30:00.000</to>
+                        <duration>002:30</duration>
+                        <reason/>
+                    </stevedoringdetailitem>
+                </stevedoringdetail>
+                <stoppagedetail/>
+                <gangguarantee/>
+            </stevedoringoperationitem>
+        </stevedoringoperation>
+        <service/>
+        <bunker>
+            <bunkeritem id="1">
+                <type>380CST</type>
+                <arrival>70</arrival>
+                <purchase>0</purchase>
+                <price>0</price>
+                <departure>69</departure>
+                <bunkerremark/>
+            </bunkeritem>
+            <bunkeritem id="2">
+                <type>MDO</type>
+                <arrival>279</arrival>
+                <purchase>0</purchase>
+                <price>0</price>
+                <departure>278</departure>
+                <bunkerremark/>
+            </bunkeritem>
+            <bunkeritem id="3">
+                <type>MGO</type>
+                <arrival>0</arrival>
+                <purchase>0</purchase>
+                <price>0</price>
+                <departure>0</departure>
+                <bunkerremark/>
+            </bunkeritem>
+        </bunker>
+    </operation>
+    <container>
+        <containersdetailsoperation>
+            <containersdetailsoperationitem id="1">
+                <terminal>BJCOOAD</terminal>
+                <movementtype>LOD</movementtype>
+                <containeriso>2210</containeriso>
+                <fullempty>F</fullempty>
+                <operator>MSCU</operator>
+                <amount>575</amount>
+                <weight>12334.4</weight>
+                <oogcargo>false</oogcargo>
+                <damagedcargo>false</damagedcargo>
+                <imo>false</imo>
+                <soc>false</soc>
+                <coastalcargo>false</coastalcargo>
+                <notformscaccount>false</notformscaccount>
+                <fromtorail>false</fromtorail>
+                <fromtobarge>false</fromtobarge>
+                <fromtotpf>false</fromtotpf>
+                <fromtotruck>false</fromtotruck>
+                <transdischargelocal>false</transdischargelocal>
+                <transloadlocal>false</transloadlocal>
+                <transdischargeoverseas>false</transdischargeoverseas>
+                <transloadoverseas>false</transloadoverseas>
+                <transdischargecoastalflag>false</transdischargecoastalflag>
+                <transloadcoastalflag>false</transloadcoastalflag>
+            </containersdetailsoperationitem>
+            <containersdetailsoperationitem id="2">
+                <terminal>BJCOOAD</terminal>
+                <movementtype>LOD</movementtype>
+                <containeriso>4510</containeriso>
+                <fullempty>F</fullempty>
+                <operator>MSCU</operator>
+                <amount>15</amount>
+                <weight>351.2</weight>
+                <oogcargo>false</oogcargo>
+                <damagedcargo>false</damagedcargo>
+                <imo>false</imo>
+                <soc>false</soc>
+                <coastalcargo>false</coastalcargo>
+                <notformscaccount>false</notformscaccount>
+                <fromtorail>false</fromtorail>
+                <fromtobarge>false</fromtobarge>
+                <fromtotpf>false</fromtotpf>
+                <fromtotruck>false</fromtotruck>
+                <transdischargelocal>false</transdischargelocal>
+                <transloadlocal>false</transloadlocal>
+                <transdischargeoverseas>false</transdischargeoverseas>
+                <transloadoverseas>false</transloadoverseas>
+                <transdischargecoastalflag>false</transdischargecoastalflag>
+                <transloadcoastalflag>false</transloadcoastalflag>
+            </containersdetailsoperationitem>
+        </containersdetailsoperation>
+        <unusualcontainer/>
+        <bundledflatcontainer/>
+        <restow>
+            <restowitem id="1">
+                <terminal>BJCOOAD</terminal>
+                <movementtype>TWS</movementtype>
+                <sizetype>4310</sizetype>
+                <fullempty>F</fullempty>
+                <operator>MSCU</operator>
+                <restowsamount>2</restowsamount>
+                <reasontype xsi:nil="true"/>
+                <weight>0</weight>
+                <oog>0</oog>
+                <imo>0</imo>
+                <damaged>0</damaged>
+                <notformscaccount>0</notformscaccount>
+                <comment/>
+                <manual>1</manual>
+            </restowitem>
+        </restow>
+        <hatchcover>
+            <hatchcoveritem id="1">
+                <terminal>BJCOOAD</terminal>
+                <quantity>0</quantity>
+                <comment/>
+            </hatchcoveritem>
+        </hatchcover>
+        <terminalactivity/>
+    </container>
+    <PVE version="13">
+        <item tag="Length Over All" value="185.5" type="N"/>
+        <item tag="Teus Capacity" value="1704" type="N"/>
+        <item tag="Fuel Capacity" value="0" type="N"/>
+        <item tag="Diesel Capacity" value="0" type="N"/>
+        <item tag="ETA" value="2024-01-21T14:00:00.000" type="D"/>
+        <item tag="ETD" value="2024-01-22T14:00:00.000" type="D"/>
+        <item tag="Operator" value="MSC Operated" type="S"/>
+        <item tag="Service" value="EXTRA VESSELS" type="S"/>
+        <item tag="Berth" value="" type="S"/>
+        <item tag="Marsec Level" value="0" type="N"/>
+        <item tag="Master" value="" type="S"/>
+        <item tag="Boarding Agent" value="Oronce Noutche" type="S"/>
+        <item tag="Boarding Company" value="MSC Benin" type="S"/>
+        <item tag="Stevedore" value="Emerick Degan" type="S" terminal="BJCOOAD"/>
+        <item tag="Stevedore Company" value="MSC Benin" type="S" terminal="BJCOOAD"/>
+        <item tag="Summer_Draft_mt" value="11.02" type="N"/>
+        <item tag="Winter_Draft_mt" value="10.79" type="N"/>
+        <item tag="Vessel_Year_Built" value="2002" type="N"/>
+        <item tag="Gross Tonnage" value="27839" type="N"/>
+        <item tag="Summer_DeadWeight_mt" value="37548" type="N"/>
+        <item tag="Net Tonnage" value="13386" type="N"/>
+        <item tag="Breadth_Moulded" value="29" type="N"/>
+        <item tag="Depth_Moulded" value="0" type="N"/>
+        <item tag="Pre-arrival message to VI sent" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Pilots notified" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Arrival Pilots/Tugs/Lines ordered for" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Arrival at Pilot Station [End Sea Passage]" value="2024-01-21T13:00:00.000" type="D"/>
+        <item tag="Drifting From" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Drifting To" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Reason for Anchorage" value="Harbour traffic" type="S"/>
+        <item tag="Anchor down" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Anchor up" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Arrival Lay By Berth From" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Arrival Lay By Berth To" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Departure Lay By Berth From" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Departure Lay By Berth To" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Arrival window (tide, bridge, etc.) start" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Arrival window (tide, bridge, etc.) finish" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="First line ashore" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Docked side to [Port / Starboard]" value="Port" type="S"/>
+        <item tag="Docked [All Fast] at terminal" value="2024-01-21T14:42:00.000" type="D"/>
+        <item tag="Boarding agent on board" value="2024-01-21T15:00:00.000" type="D"/>
+        <item tag="Gangs ordered for" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Gangway Down" value="2024-01-21T15:00:00.000" type="D"/>
+        <item tag="Operations commence" value="2024-01-21T15:24:00.000" type="D"/>
+        <item tag="Gangs Standing By" value="0" type="N"/>
+        <item tag="Estimated time of operations completion" value="2024-01-21T15:24:00.000" type="D"/>
+        <item tag="Entered cleared with customs" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Operations completed" value="2024-01-22T12:30:00.000" type="D"/>
+        <item tag="Lashing completed" value="2024-01-22T12:40:00.000" type="D"/>
+        <item tag="Number of Lashers" value="0" type="N"/>
+        <item tag="Lashing Done By" value="Terminal" type="S"/>
+        <item tag="Number of Watchmen" value="0" type="N"/>
+        <item tag="Supervisor" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Departure Anchor down" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Departure Anchor up" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Anchorage Out From" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Anchorage Out To" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Departure window (tide, brige, etc) start" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Departure window (tide, brige, etc) finish" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Departure Pilots/Tugs/Lines ordered for" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Boarding agent off vessel" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Vessel undocked" value="2024-01-22T16:02:00.000" type="D"/>
+        <item tag="Vessel sailed from this port" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Arrival Bowthruster" value="arrival out of order" type="S"/>
+        <item tag="Departure Bowthruster" value="departure in order" type="S"/>
+        <item tag="Next port eMail" value="" type="S"/>
+        <item tag="Departure Service" value="extra vessels" type="S"/>
+        <item tag="Lost time reason" value="Pilot shortage" type="S"/>
+        <item tag="VI Off Hire From" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="VI Off Hire To" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="VI Off Hire Statement Issued" value="0" type="N" index="1"/>
+        <item tag="VI Off Hire Total Hours" value="0" type="N" index="1"/>
+        <item tag="VI Off Hire Remark" value="" type="S" index="1"/>
+        <item tag="VI Off Hire From" value="0001-01-01T00:00:00" type="D" index="2"/>
+        <item tag="VI Off Hire To" value="0001-01-01T00:00:00" type="D" index="2"/>
+        <item tag="VI Off Hire Statement Issued" value="0" type="N" index="2"/>
+        <item tag="VI Off Hire Total Hours" value="0" type="N" index="2"/>
+        <item tag="VI Off Hire Remark" value="" type="S" index="2"/>
+        <item tag="Vessel Shift Row Type" value="No Shifting" type="S" index="1"/>
+        <item tag="Vessel Shift Row From" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Row To" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Row Pilot Used" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Row Pilot Number" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Row Tugs Used" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Row Tugs Number" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Row Mooring" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Row Remark" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Row TerminalCode From" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Row TerminalCode To" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Pilotage Operation" value="Shifting" type="S" index="1"/>
+        <item tag="Vessel Shift Pilotage Type" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Pilotage Number of Pilots" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Pilotage Ordered For" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Pilotage From" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Pilotage To" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Pilotage Duration" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Pilotage Name" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Pilotage Delay" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Pilotage Comment" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Pilotage Parent Row" value="1" type="N" index="1"/>
+        <item tag="Vessel Shift Towage Operation" value="Shifting" type="S" index="1"/>
+        <item tag="Vessel Shift Towage Type" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Towage Tug Type" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Towage Number of Tugs" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Towage Ordered For" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Towage From" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Towage To" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Vessel Shift Towage Duration" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Towage Delay" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Towage Name" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Towage Bowthruster Not Operational" value="0" type="N" index="1"/>
+        <item tag="Vessel Shift Towage Comment" value="" type="S" index="1"/>
+        <item tag="Vessel Shift Towage Parent Row" value="1" type="N" index="1"/>
+        <item tag="Draft Arrival Ford" value="7.3" type="N" index="1"/>
+        <item tag="Draft Arrival Aft" value="7.7" type="N" index="1"/>
+        <item tag="Draft Arrival Mid" value="0" type="N" index="1"/>
+        <item tag="Draft Arrival Air" value="0" type="N" index="1"/>
+        <item tag="Arrival Displacement" value="0" type="N" index="1"/>
+        <item tag="Draft Depart Ford" value="10.2" type="N" index="1"/>
+        <item tag="Draft Depart Aft" value="10.6" type="N" index="1"/>
+        <item tag="Draft Depart Mid" value="0" type="N" index="1"/>
+        <item tag="Draft Depart Air" value="0" type="N" index="1"/>
+        <item tag="Depart Displacement" value="0" type="N" index="1"/>
+        <item tag="Liquids Arrival HFO" value="70.5" type="N"/>
+        <item tag="Liquids Arrival IFO" value="0" type="N"/>
+        <item tag="Liquids Arrival MDO" value="279" type="N"/>
+        <item tag="Liquids Arrival MGO" value="0" type="N"/>
+        <item tag="Liquids Arrival FW" value="187.7" type="N"/>
+        <item tag="Liquids Arrival Ballast" value="0" type="N"/>
+        <item tag="Liquids Lifted HFO" value="0" type="N"/>
+        <item tag="Liquids Lifted IFO" value="0" type="N"/>
+        <item tag="Liquids Lifted MDO" value="0" type="N"/>
+        <item tag="Liquids Lifted MGO" value="0" type="N"/>
+        <item tag="Liquids Lifted FW" value="0" type="N"/>
+        <item tag="Liquids Lifted Ballast" value="0" type="N"/>
+        <item tag="Liquids Depart HFO" value="69.5" type="N"/>
+        <item tag="Liquids Depart IFO" value="0" type="N"/>
+        <item tag="Liquids Depart MDO" value="278" type="N"/>
+        <item tag="Liquids Depart MGO" value="0" type="N"/>
+        <item tag="Liquids Depart FW" value="184.7" type="N"/>
+        <item tag="Liquids Depart Ballast" value="0" type="N"/>
+        <item tag="Bunkers Stemmed Ordered" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Bunkers Stemmed Start" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Bunkers Stemmed Complete" value="0001-01-01T00:00:00" type="D"/>
+        <item tag="Bunkers Stemmed Remark" value="" type="S"/>
+        <item tag="Linemen Operation Type" value="M" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Operation" value="Arrival" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Boat" value="NO" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Number of Linemen" value="8" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Ordered For" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen From" value="2024-01-21T14:12:00.000" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen To" value="2024-01-21T14:42:00.000" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Duration" value="0.50000000" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Ropes" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Comment" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Parent Row" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Linemen Operation Type" value="U" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Operation" value="Departure" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Boat" value="NO" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Number of Linemen" value="8" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Ordered For" value="0001-01-01T00:00:00" type="D" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen From" value="2024-01-22T16:02:00.000" type="D" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen To" value="2024-01-22T16:38:00.000" type="D" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Duration" value="0.60000000" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Ropes" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Comment" value="" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Linemen Parent Row" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 20" value="499" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 20 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 20 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 40" value="16" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 40 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 40 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 45" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 45 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 45 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 45" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 45 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Imports 45 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 20" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 20 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 20 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 40" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 40 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 40 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 45" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 45 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 45 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 45" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 45 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge Transhipments 45 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Discharge OOG 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge OOG 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge OOG 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge OOG 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge OOG 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge OOG 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Reefer 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Reefer 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Reefer 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Reefer 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Reefer 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Discharge Reefer 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 20" value="575" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 20" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 20 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 20 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 40" value="15" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 40" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 40 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 40 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 45" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 45 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 45 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 45" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 45 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Domestic Exports 45 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 20" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 20 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 20 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 40" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 40 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 40 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 45" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 45 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 45 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 45" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 45 Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Load Transhipments 45 Content" value="E" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Load OOG 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Load OOG 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load OOG 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load OOG 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Load OOG 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load OOG 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Reefer 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Reefer 20 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Reefer 20 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Reefer 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Reefer 40 Operator" value="MSC" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Load Reefer 40 Content" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge 20 Full" value="0" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge Full" value="0" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge 20 Empty" value="499" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge Empty" value="515" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge 40 Full" value="0" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge 40 Empty" value="16" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge 45 Full" value="0" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Discharge 45 Empty" value="0" type="N" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load 20 Full" value="575" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load Full" value="590" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load 20 Empty" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load Empty" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load 40 Full" value="15" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load 40 Empty" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load 45 Full" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="MSC Total Load 45 Empty" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Count" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Men Per Gang Count" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Shore Crane" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times From" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times To" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Total" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Pay Rate Code" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Count" value="1" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Men Per Gang Count" value="5" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Shore Crane" value="1" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times From" value="2024-01-21T15:24:00.000" type="D" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times To" value="2024-01-21T17:00:00.000" type="D" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Total" value="1.60000000" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Pay Rate Code" value="ST" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Count" value="2" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Men Per Gang Count" value="10" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Shore Crane" value="2" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times From" value="2024-01-21T17:00:00.000" type="D" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times To" value="2024-01-21T21:00:00.000" type="D" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Total" value="4.00000000" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Pay Rate Code" value="ST" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Count" value="3" type="N" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Men Per Gang Count" value="15" type="N" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Shore Crane" value="3" type="S" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times From" value="2024-01-21T21:00:00.000" type="D" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times To" value="2024-01-22T02:00:00.000" type="D" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Total" value="5.00000000" type="N" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Pay Rate Code" value="ST" type="S" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Count" value="2" type="N" index="5" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Men Per Gang Count" value="10" type="N" index="5" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Shore Crane" value="2" type="S" index="5" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times From" value="2024-01-22T02:00:00.000" type="D" index="5" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times To" value="2024-01-22T10:00:00.000" type="D" index="5" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Total" value="8.00000000" type="N" index="5" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Pay Rate Code" value="ST" type="S" index="5" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Count" value="1" type="N" index="6" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Men Per Gang Count" value="5" type="N" index="6" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Shore Crane" value="1" type="S" index="6" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times From" value="2024-01-22T10:00:00.000" type="D" index="6" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times To" value="2024-01-22T12:30:00.000" type="D" index="6" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Total" value="2.50000000" type="N" index="6" terminal="BJCOOAD"/>
+        <item tag="Gang Working Times Pay Rate Code" value="ST" type="S" index="6" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Name" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Projected Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Split Stevedore Superintendent" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Split Foreman" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Name" value="1" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Projected Moves" value="370" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Moves" value="370" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Split Stevedore Superintendent" value="" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Split Foreman" value="" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Name" value="2" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Projected Moves" value="365" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Moves" value="365" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Split Stevedore Superintendent" value="" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Split Foreman" value="" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Name" value="3" type="S" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Projected Moves" value="374" type="N" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Split Crane Moves" value="374" type="N" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Split Stevedore Superintendent" value="" type="S" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Split Foreman" value="" type="S" index="4" terminal="BJCOOAD"/>
+        <item tag="Gang Split Yard Equipment Crane Name" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Split Yard Equipment" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Split Yard Equipment Allocated" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention Count" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention From" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention To" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention Duration" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention Type" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention Pay Rate Code" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Detention Shore Crane" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Guarantee Count" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Guarantee From" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Guarantee To" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Guarantee Duration" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Guarantee Shore Crane" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 40 Account" value="MSCU" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 40 Moves" value="4" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 40 FullEmpty" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 40 Not for MSC Account" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Twist Lock Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 20 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 20 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 20 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 20 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Restow 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Shift 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Lashing Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Restow 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Shift 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Lashing Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Twist Lock Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Restow 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Shift 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Lashing Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="OOG Twist Lock Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Restow 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Shift 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Lashing Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Damaged Twist Lock Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Restow 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Shift 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Lashing Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 40 Account" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 40 Moves" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 40 Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="IMO Twist Lock Box 40 FullEmpty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Account" value="MSCU" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Type" value="Twist Lock Box" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Size" value="40" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting FullEmpty" value="F" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Count" value="4" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting OOG" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Reefer" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Damaged" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting IMO" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting NotForMSCAccount" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifting Comments" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Lid Moves On" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Lid Moves Off" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Bundled Freight Discharge 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Bundled Freight Discharge 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Bundled Freight Load 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Bundled Freight Load 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Total Bundles Discharge 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Total Bundles Discharge 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Total Bundles Load 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Total Bundles Load 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Mechanic Count" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Mechanic From" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Mechanic To" value="0001-01-01T00:00:00" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="Reefer Mechanic Duration" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifted in the Yard Prior 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifted in the Yard Prior 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifted in the Yard Prior Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifted in the Yard During 20" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifted in the Yard During 40" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Shifted in the Yard During Reason" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Total Discharge" value="515" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Total Load" value="590" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Total Shifts" value="2" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Total Moves" value="1107" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Customs Import" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Customs Empty" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Customs Remaining on Board" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Customs Restows/Shifts Incurred" value="0" type="N" index="4" terminal="BJCOOAD"/>
+        <item tag="Customs Inspection" value="0" type="N" index="5" terminal="BJCOOAD"/>
+        <item tag="Customs Vessel Inspection" value="0" type="N" index="6" terminal="BJCOOAD"/>
+        <item tag="Customs Cargo Inspection" value="0" type="N" index="7" terminal="BJCOOAD"/>
+        <item tag="Customs Export" value="0" type="N" index="8" terminal="BJCOOAD"/>
+        <item tag="Extra Service Provided" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Gang Remarks" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Remarks" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Gang Start" value="2024-01-21T15:20:00.000" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Gang Finish" value="2024-01-22T12:40:00.000" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Operation Start" value="2024-01-21T15:24:00.000" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Operation Finish" value="2024-01-22T12:30:00.000" type="D" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Status" value="Final" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="TOR Number" value="2" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Number Bays Worked" value="0" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Multiberthing" value="0" type="N" terminal="BJCOOAD"/>
+        <item tag="Container Details Terminal" value="BJCOOAD" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Movement Type" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Container Type" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Full Empty" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Operator" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Amount" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Weight" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details OOG Cargo" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Damaged Cargo" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details IMO" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details SOC" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Coastal Cargo" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details NotforMscAccount" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details SpecialEquipment" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToRail" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToBarge" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToTPF" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToTruck" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeLocal" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadLocal" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeServiceCode" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadServiceCode" value="" type="S" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeOverseas" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadOverseas" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeCoastalFlag" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadCoastalFlag" value="0" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Container Details Terminal" value="BJCOOAD" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Movement Type" value="LOD" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Container Type" value="20DV" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Full Empty" value="F" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Operator" value="MSC" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Amount" value="575" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Weight" value="123344" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details OOG Cargo" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Damaged Cargo" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details IMO" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details SOC" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Coastal Cargo" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details NotforMscAccount" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details SpecialEquipment" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToRail" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToBarge" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToTPF" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToTruck" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeLocal" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadLocal" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeServiceCode" value="" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadServiceCode" value="" type="S" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeOverseas" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadOverseas" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeCoastalFlag" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadCoastalFlag" value="0" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Container Details Terminal" value="BJCOOAD" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Movement Type" value="LOD" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Container Type" value="40HC" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Full Empty" value="F" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Operator" value="MSC" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Amount" value="15" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Weight" value="3512" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details OOG Cargo" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Damaged Cargo" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details IMO" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details SOC" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details Coastal Cargo" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details NotforMscAccount" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details SpecialEquipment" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToRail" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToBarge" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToTPF" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details FromToTruck" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeLocal" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadLocal" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeServiceCode" value="" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadServiceCode" value="" type="S" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeOverseas" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadOverseas" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransDischargeCoastalFlag" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Container Details TransLoadCoastalFlag" value="0" type="N" index="3" terminal="BJCOOAD"/>
+        <item tag="Total Arrival Cargo Weight" value="" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Total Departure Cargo Weight" value="193556" type="N" index="1" terminal="BJCOOAD"/>
+        <item tag="Total Arrival Cargo Weight" value="" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Total Departure Cargo Weight" value="193556" type="N" index="2" terminal="BJCOOAD"/>
+        <item tag="Husbandry Item" value="Government service / OT" type="S" index="1"/>
+        <item tag="Husbandry Value" value="0" type="N" index="1"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="1"/>
+        <item tag="Husbandry Item" value="Custom tonnage tax" type="S" index="2"/>
+        <item tag="Husbandry Value" value="0" type="N" index="2"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="2"/>
+        <item tag="Husbandry Item" value="Custom user fees" type="S" index="3"/>
+        <item tag="Husbandry Value" value="0" type="N" index="3"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="3"/>
+        <item tag="Husbandry Item" value="Custom APHIS fees" type="S" index="4"/>
+        <item tag="Husbandry Value" value="0" type="N" index="4"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="4"/>
+        <item tag="Husbandry Item" value="Channel dues" type="S" index="5"/>
+        <item tag="Husbandry Value" value="0" type="N" index="5"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="5"/>
+        <item tag="Husbandry Item" value="Light dues" type="S" index="6"/>
+        <item tag="Husbandry Value" value="0" type="N" index="6"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="6"/>
+        <item tag="Husbandry Item" value="Berth cleaning" type="S" index="7"/>
+        <item tag="Husbandry Value" value="0" type="N" index="7"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="7"/>
+        <item tag="Husbandry Item" value="Launch service" type="S" index="8"/>
+        <item tag="Husbandry Value" value="0" type="N" index="8"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="8"/>
+        <item tag="Husbandry Item" value="Bonus to master/crew" type="S" index="9"/>
+        <item tag="Husbandry Value" value="0" type="N" index="9"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="9"/>
+        <item tag="Husbandry Item" value="Cash to master delivery*" type="S" index="10"/>
+        <item tag="Husbandry Value" value="0" type="N" index="10"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="10"/>
+        <item tag="Husbandry Item" value="Guard service/security watchman" type="S" index="11"/>
+        <item tag="Husbandry Value" value="0" type="N" index="11"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="11"/>
+        <item tag="Husbandry Item" value="Supplies and provisions" type="S" index="12"/>
+        <item tag="Husbandry Value" value="0" type="N" index="12"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="12"/>
+        <item tag="Husbandry Item" value="Fresh water*" type="S" index="13"/>
+        <item tag="Husbandry Value" value="0" type="N" index="13"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="13"/>
+        <item tag="Husbandry Item" value="Charts" type="S" index="14"/>
+        <item tag="Husbandry Value" value="0" type="N" index="14"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="14"/>
+        <item tag="Husbandry Item" value="Crew lodging*" type="S" index="15"/>
+        <item tag="Husbandry Value" value="0" type="N" index="15"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="15"/>
+        <item tag="Husbandry Item" value="Crew transportation*" type="S" index="16"/>
+        <item tag="Husbandry Value" value="0" type="N" index="16"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="16"/>
+        <item tag="Husbandry Item" value="Crew air fare*" type="S" index="17"/>
+        <item tag="Husbandry Value" value="0" type="N" index="17"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="17"/>
+        <item tag="Husbandry Item" value="Medical expenses" type="S" index="18"/>
+        <item tag="Husbandry Value" value="0" type="N" index="18"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="18"/>
+        <item tag="Husbandry Item" value="Medical equipment and supplies" type="S" index="19"/>
+        <item tag="Husbandry Value" value="0" type="N" index="19"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="19"/>
+        <item tag="Husbandry Item" value="Repairs" type="S" index="20"/>
+        <item tag="Husbandry Value" value="0" type="N" index="20"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="20"/>
+        <item tag="Husbandry Item" value="Ships spares*" type="S" index="21"/>
+        <item tag="Husbandry Value" value="0" type="N" index="21"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="21"/>
+        <item tag="Husbandry Item" value="Courier delivery" type="S" index="22"/>
+        <item tag="Husbandry Value" value="0" type="N" index="22"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="22"/>
+        <item tag="Husbandry Item" value="Vessel survey" type="S" index="23"/>
+        <item tag="Husbandry Value" value="0" type="N" index="23"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="23"/>
+        <item tag="Husbandry Item" value="Laundry" type="S" index="24"/>
+        <item tag="Husbandry Value" value="0" type="N" index="24"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="24"/>
+        <item tag="Husbandry Item" value="Consular fees/visa fees" type="S" index="25"/>
+        <item tag="Husbandry Value" value="0" type="N" index="25"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="25"/>
+        <item tag="Husbandry Item" value="Sanitary inspection" type="S" index="26"/>
+        <item tag="Husbandry Value" value="0" type="N" index="26"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="26"/>
+        <item tag="Husbandry Item" value="Slop garbage removal*" type="S" index="27"/>
+        <item tag="Husbandry Value" value="0" type="N" index="27"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="27"/>
+        <item tag="Husbandry Item" value="Fumigation charges" type="S" index="28"/>
+        <item tag="Husbandry Value" value="0" type="N" index="28"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="28"/>
+        <item tag="Husbandry Item" value="Other vessel crew expenses" type="S" index="29"/>
+        <item tag="Husbandry Value" value="0" type="N" index="29"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="29"/>
+        <item tag="Husbandry Item" value="Cargo survey" type="S" index="30"/>
+        <item tag="Husbandry Value" value="0" type="N" index="30"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="30"/>
+        <item tag="Husbandry Item" value="Hold inspections" type="S" index="31"/>
+        <item tag="Husbandry Value" value="0" type="N" index="31"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="31"/>
+        <item tag="Husbandry Item" value="On/Off hire survey" type="S" index="32"/>
+        <item tag="Husbandry Value" value="0" type="N" index="32"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="32"/>
+        <item tag="Husbandry Item" value="Custom fee (cargo)" type="S" index="33"/>
+        <item tag="Husbandry Value" value="0" type="N" index="33"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="33"/>
+        <item tag="Husbandry Item" value="Dunnage removal" type="S" index="34"/>
+        <item tag="Husbandry Value" value="0" type="N" index="34"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="34"/>
+        <item tag="Husbandry Item" value="AMS Filing fees" type="S" index="35"/>
+        <item tag="Husbandry Value" value="0" type="N" index="35"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="35"/>
+        <item tag="Husbandry Item" value="ENOA/D fees" type="S" index="36"/>
+        <item tag="Husbandry Value" value="0" type="N" index="36"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="36"/>
+        <item tag="Husbandry Item" value="Crew changes" type="S" index="37"/>
+        <item tag="Husbandry Value" value="2" type="N" index="37"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="37"/>
+        <item tag="Husbandry Item" value="Crew ships's mail" type="S" index="38"/>
+        <item tag="Husbandry Value" value="0" type="N" index="38"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="38"/>
+        <item tag="Husbandry Item" value="Cell phone usage" type="S" index="39"/>
+        <item tag="Husbandry Value" value="0" type="N" index="39"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="39"/>
+        <item tag="Husbandry Item" value="Courier package delivery fees" type="S" index="40"/>
+        <item tag="Husbandry Value" value="0" type="N" index="40"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="40"/>
+        <item tag="Husbandry Item" value="USER FEES PAYMENT NUMBER @ $437 (13 max)" type="S" index="41"/>
+        <item tag="Husbandry Value" value="0" type="N" index="41"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="41"/>
+        <item tag="Husbandry Item" value="2nd USER FEES PAYMENT NUMBER @ $274 (1 only)" type="S" index="42"/>
+        <item tag="Husbandry Value" value="0" type="N" index="42"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="42"/>
+        <item tag="Husbandry Item" value="APHIS FEES PAYMENT NUMBER (15 max)" type="S" index="43"/>
+        <item tag="Husbandry Value" value="0" type="N" index="43"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="43"/>
+        <item tag="Husbandry Item" value="TONNAGE TAX PAYMENT NUMBER @ $.06 (5 max)" type="S" index="44"/>
+        <item tag="Husbandry Value" value="0" type="N" index="44"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="44"/>
+        <item tag="Husbandry Item" value="Date of first payment" type="S" index="45"/>
+        <item tag="Husbandry Value" value="0" type="N" index="45"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="45"/>
+        <item tag="Husbandry Item" value="TONNAGE TAX PAYMENT NUMBER @ $.02 (5 max)" type="S" index="46"/>
+        <item tag="Husbandry Value" value="0" type="N" index="46"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="46"/>
+        <item tag="Husbandry Item" value="Date of first payment" type="S" index="47"/>
+        <item tag="Husbandry Value" value="0" type="N" index="47"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="47"/>
+        <item tag="Husbandry Item" value="Gangway" type="S" index="48"/>
+        <item tag="Husbandry Value" value="0" type="N" index="48"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="48"/>
+        <item tag="Husbandry Item" value="Cash to master" type="S" index="49"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="49"/>
+        <item tag="Husbandry Item" value="Certificates/various" type="S" index="50"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="50"/>
+        <item tag="Husbandry Item" value="Dentist services" type="S" index="51"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="51"/>
+        <item tag="Husbandry Item" value="Doctor services" type="S" index="52"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="52"/>
+        <item tag="Husbandry Item" value="Flights" type="S" index="53"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="53"/>
+        <item tag="Husbandry Item" value="Freshwater" type="S" index="54"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="54"/>
+        <item tag="Husbandry Item" value="Garbage" type="S" index="55"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="55"/>
+        <item tag="Husbandry Item" value="Hotel accomodation" type="S" index="56"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="56"/>
+        <item tag="Husbandry Item" value="Other Service Supplied" type="S" index="57"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="57"/>
+        <item tag="Husbandry Item" value="Seal Box" type="S" index="58"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="58"/>
+        <item tag="Husbandry Item" value="Ship Stores" type="S" index="59"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="59"/>
+        <item tag="Husbandry Item" value="Slops/sludge" type="S" index="60"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="60"/>
+        <item tag="Husbandry Item" value="Taxi" type="S" index="61"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="61"/>
+        <item tag="Husbandry Item" value="Vessel spare parts" type="S" index="62"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="62"/>
+        <item tag="Husbandry Item" value="MSC Operated by" type="S" index="63"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="63"/>
+        <item tag="Husbandry Item" value="Garbage Type" type="S" index="64"/>
+        <item tag="Husbandry Value" value="0" type="N" index="64"/>
+        <item tag="Husbandry Cost" value="0" type="N" index="64"/>
+        <item tag="Safety and Compliance Numeric" value="" type="S" index="1"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="1"/>
+        <item tag="Safety and Compliance Date" value="" type="S" index="1"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Safety and Compliance String" value="" type="S" index="1"/>
+        <item tag="Safety and Compliance String Value" value="" type="S" index="1"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="1"/>
+        <item tag="Safety and Compliance Numeric" value="ENOA received" type="S" index="2"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="2"/>
+        <item tag="Safety and Compliance Date" value="ENOA received" type="S" index="2"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="2"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="2"/>
+        <item tag="Safety and Compliance Numeric" value="NVMC checked" type="S" index="3"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="3"/>
+        <item tag="Safety and Compliance Date" value="NVMC checked" type="S" index="3"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="3"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="3"/>
+        <item tag="Safety and Compliance Numeric" value="Crew list check" type="S" index="4"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="4"/>
+        <item tag="Safety and Compliance Date" value="Crew list check" type="S" index="4"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="4"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="4"/>
+        <item tag="Safety and Compliance Numeric" value="Navigation equipment check" type="S" index="5"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="5"/>
+        <item tag="Safety and Compliance Date" value="Navigation equipment check" type="S" index="5"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="5"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="5"/>
+        <item tag="Safety and Compliance Numeric" value="CBP VL inspection" type="S" index="6"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="6"/>
+        <item tag="Safety and Compliance Date" value="CBP VL inspection" type="S" index="6"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="6"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="6"/>
+        <item tag="Safety and Compliance Numeric" value="USCG VI inspection" type="S" index="7"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="7"/>
+        <item tag="Safety and Compliance Date" value="USCG VI inspection" type="S" index="7"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="7"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="7"/>
+        <item tag="Safety and Compliance Numeric" value="COTP order issued" type="S" index="8"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="8"/>
+        <item tag="Safety and Compliance Date" value="COTP order issued" type="S" index="8"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="8"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="8"/>
+        <item tag="Safety and Compliance Numeric" value="VI Detained USCG" type="S" index="9"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="9"/>
+        <item tag="Safety and Compliance Date" value="VI Detained USCG" type="S" index="9"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="9"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="9"/>
+        <item tag="Safety and Compliance Numeric" value="VI Detained Class" type="S" index="10"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="10"/>
+        <item tag="Safety and Compliance Date" value="VI Detained Class" type="S" index="10"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="10"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="10"/>
+        <item tag="Safety and Compliance Numeric" value="USCBP Cargo Inspection" type="S" index="11"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="11"/>
+        <item tag="Safety and Compliance Date" value="USCBP Cargo Inspection" type="S" index="11"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="11"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="11"/>
+        <item tag="Safety and Compliance Numeric" value="Vessel damages" type="S" index="12"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="12"/>
+        <item tag="Safety and Compliance Date" value="Vessel damages" type="S" index="12"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="12"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="12"/>
+        <item tag="Safety and Compliance Numeric" value="Cargo damage" type="S" index="13"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="13"/>
+        <item tag="Safety and Compliance Date" value="Cargo damage" type="S" index="13"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="13"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="13"/>
+        <item tag="Safety and Compliance Numeric" value="Personnel accident" type="S" index="14"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="14"/>
+        <item tag="Safety and Compliance Date" value="Personnel accident" type="S" index="14"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="14"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="14"/>
+        <item tag="Safety and Compliance Numeric" value="Hazardous incident" type="S" index="15"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="15"/>
+        <item tag="Safety and Compliance Date" value="Hazardous incident" type="S" index="15"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="15"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="15"/>
+        <item tag="Safety and Compliance Numeric" value="Incident report issued" type="S" index="16"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="16"/>
+        <item tag="Safety and Compliance Date" value="Incident report issued" type="S" index="16"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="16"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="16"/>
+        <item tag="Safety and Compliance Numeric" value="Garbage violation" type="S" index="17"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="17"/>
+        <item tag="Safety and Compliance Date" value="Garbage violation" type="S" index="17"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="17"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="17"/>
+        <item tag="Safety and Compliance Numeric" value="Pollution incident" type="S" index="18"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="18"/>
+        <item tag="Safety and Compliance Date" value="Pollution incident" type="S" index="18"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="18"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="18"/>
+        <item tag="Safety and Compliance Numeric" value="ESI" type="S" index="19"/>
+        <item tag="Safety and Compliance Numeric Value" value="0" type="N" index="19"/>
+        <item tag="Safety and Compliance Date" value="ESI" type="S" index="19"/>
+        <item tag="Safety and Compliance Date Value" value="0001-01-01T00:00:00" type="D" index="19"/>
+        <item tag="Safety and Compliance Comment" value="" type="S" index="19"/>
+        <item tag="Pilotage Operation" value="Arrival" type="S" index="1"/>
+        <item tag="Pilotage Type" value="Sea" type="S" index="1"/>
+        <item tag="Pilotage Number of Pilots" value="1" type="N" index="1"/>
+        <item tag="Pilotage Ordered For" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Pilotage From" value="2024-01-21T13:36:00.000" type="D" index="1"/>
+        <item tag="Pilotage To" value="2024-01-21T14:42:00.000" type="D" index="1"/>
+        <item tag="Pilotage Duration" value="1.10000000" type="N" index="1"/>
+        <item tag="Pilotage Name" value="" type="S" index="1"/>
+        <item tag="Pilotage Delay" value="" type="S" index="1"/>
+        <item tag="Pilotage Comment" value="" type="S" index="1"/>
+        <item tag="Pilotage Operation" value="Departure" type="S" index="2"/>
+        <item tag="Pilotage Type" value="Sea" type="S" index="2"/>
+        <item tag="Pilotage Number of Pilots" value="1" type="N" index="2"/>
+        <item tag="Pilotage Ordered For" value="0001-01-01T00:00:00" type="D" index="2"/>
+        <item tag="Pilotage From" value="2024-01-22T15:48:00.000" type="D" index="2"/>
+        <item tag="Pilotage To" value="2024-01-22T16:38:00.000" type="D" index="2"/>
+        <item tag="Pilotage Duration" value="0.83333333" type="N" index="2"/>
+        <item tag="Pilotage Name" value="" type="S" index="2"/>
+        <item tag="Pilotage Delay" value="" type="S" index="2"/>
+        <item tag="Pilotage Comment" value="" type="S" index="2"/>
+        <item tag="Towage Operation" value="Arrival" type="S" index="1"/>
+        <item tag="Towage Type" value="Sea" type="S" index="1"/>
+        <item tag="Towage Tug Type" value="Conventional" type="S" index="1"/>
+        <item tag="Towage Number of Tugs" value="2" type="N" index="1"/>
+        <item tag="Towage Ordered For" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Towage From" value="2024-01-21T13:36:00.000" type="D" index="1"/>
+        <item tag="Towage To" value="2024-01-21T14:42:00.000" type="D" index="1"/>
+        <item tag="Towage Duration" value="1.10000000" type="N" index="1"/>
+        <item tag="Towage Name" value="" type="S" index="1"/>
+        <item tag="Towage Delay" value="" type="S" index="1"/>
+        <item tag="Towage Bowthruster Not Operational" value="0" type="N" index="1"/>
+        <item tag="Towage Comment" value="" type="S" index="1"/>
+        <item tag="Towage Operation" value="Departure" type="S" index="2"/>
+        <item tag="Towage Type" value="Sea" type="S" index="2"/>
+        <item tag="Towage Tug Type" value="Conventional" type="S" index="2"/>
+        <item tag="Towage Number of Tugs" value="2" type="N" index="2"/>
+        <item tag="Towage Ordered For" value="0001-01-01T00:00:00" type="D" index="2"/>
+        <item tag="Towage From" value="2024-01-22T15:48:00.000" type="D" index="2"/>
+        <item tag="Towage To" value="2024-01-22T16:38:00.000" type="D" index="2"/>
+        <item tag="Towage Duration" value="0.83333333" type="N" index="2"/>
+        <item tag="Towage Name" value="" type="S" index="2"/>
+        <item tag="Towage Delay" value="" type="S" index="2"/>
+        <item tag="Towage Bowthruster Not Operational" value="0" type="N" index="2"/>
+        <item tag="Towage Comment" value="" type="S" index="2"/>
+        <item tag="Pilot Cancellation" value="0" type="N"/>
+        <item tag="Departure Pilot Cancellation" value="0" type="N"/>
+        <item tag="Towage Cancellation" value="0" type="N"/>
+        <item tag="Departure Towage Cancellation" value="0" type="N"/>
+        <item tag="Mooring Cancellation" value="0" type="N"/>
+        <item tag="UnMooring Cancellation" value="0" type="N"/>
+        <item tag="Ownership Type" value="MSC" type="S"/>
+        <item tag="PORTLOG Remarks" value="" type="S"/>
+        <item tag="PORTLOG Status" value="Final" type="S"/>
+        <item tag="PORTLOG Number" value="4" type="N"/>
+        <item tag="Master Voyage" value="XA401R" type="S"/>
+        <item tag="Vessel Name" value="MSC HAITI II" type="S"/>
+        <item tag="Vessel CASP Code" value="MHAI" type="S"/>
+        <item tag="Vessel IMO" value="9225251" type="S"/>
+        <item tag="Vessel Call Sign" value="5LFZ6" type="S"/>
+        <item tag="Vessel Flag" value="Liberia" type="S"/>
+        <item tag="Vessel Arriving From" value="TGLFW" type="S"/>
+        <item tag="Vessel Next Port" value="TGLFW" type="S"/>
+        <item tag="Vessel Next Port ETA" value="2024-01-23T13:00:00.000" type="D"/>
+        <item tag="Planner" value="Emerick Degan" type="S"/>
+        <item tag="Port Manager" value="" type="S"/>
+        <item tag="Reason For Late Arrival" value="" type="S"/>
+        <item tag="Reason For Late Departure" value="" type="S"/>
+        <item tag="Cold Ironing Terminal" value="" type="S" index="1"/>
+        <item tag="Cold Ironing Shore Power Switched On" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Cold Ironing Shore Power Switched Off" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Cold Ironing Engines Stopped" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Cold Ironing Engines Started" value="0001-01-01T00:00:00" type="D" index="1"/>
+        <item tag="Cold Ironing Stoppages" value="0" type="N" index="1"/>
+        <item tag="Cold Ironing Comments" value="" type="S" index="1"/>
+        <item tag="Cold Ironing Energy Kwh" value="" type="S" index="1"/>
+        <item tag="Terminal Activity Terminal" value="BJCOOAD" type="S" index="1"/>
+        <item tag="Terminal Activity Movement Type" value="" type="S" index="1"/>
+        <item tag="Terminal Activity Size Type" value="" type="S" index="1"/>
+        <item tag="Terminal Activity Full Empty" value="" type="S" index="1"/>
+        <item tag="Terminal Activity Quantity Container" value="0" type="N" index="1"/>
+        <item tag="Terminal Activity Reason Type" value="" type="S" index="1"/>
+        <item tag="Terminal Activity Comment" value="" type="S" index="1"/>
+        <item tag="Vessel Volume" value="59282" type="N"/>
+        <item tag="Authorities On Vessel" value="1" type="S"/>
+        <item tag="Total Calls One Year Back" value="0" type="N"/>
+        <item tag="Total Calls One Week Back" value="0" type="N"/>
+        <item tag="Total Calls This Year" value="0" type="N"/>
+    </PVE>
+</vci>
